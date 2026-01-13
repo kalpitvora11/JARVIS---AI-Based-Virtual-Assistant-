@@ -1,0 +1,103 @@
+
+{
+    "intents":[
+
+        {
+            "tag":"greets",
+            "patterns":["hello","hii","hey"
+            ],
+            "responses":["Hello Sir :)",
+                "Hey, I Was Really Waiting For Your Presence.",
+                "Hey, I Was Literally Waiting For Your Presence.",
+                "Hey, I Was Waiting For Your Presence.",
+                "Hey, I Was Waiting For You.",
+                "Hello, I Was Waiting For You.",
+                "Hello Sir. Nice Meeting You Again.",
+                "Hello Sir. Nice To Meet You.",
+                "Hello.",
+                "Hey What's Up Sir."
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye","goodbye","see you later","sleep","exit"
+
+            ],
+            "responses":["Bye","I am Going.","See You Later","It wll be Nice To Meet You Again","Good Bye"
+
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","how you","are you fine?","are you good"
+
+            ],
+            "responses":["Fine.","Perfect.","Cool","I am totally fine.Are you Fine? "
+
+            ]
+        },
+        {
+            "tag":"identity",
+            "patterns":["your name","what is your name","who are you","what are you"
+
+            ],
+            "responses":["Jarvis","I Am Jarvis","An A.I Assistant.","My Name is Jarvis ","Great Assistant."
+
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["what is time","Samay Batao","what's the time","Jarvis Time"
+
+            ],
+            "responses":["time"
+
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":["what id date","date","tareek","what's the date","today's date"
+
+            ],
+            "responses":["date"
+
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":["day","what is day","who are you","din","what's the day", "today"
+
+            ],
+            "responses":["day"
+
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","about","what is","wikipedia"
+
+            ],
+            "responses":["wikipedia"
+
+            ]
+        },
+        {
+            "tag":"google",
+            "patterns":["google search","google","search","search on"
+
+            ],
+            "responses":["google"
+
+            ]
+        },
+        {
+            "tag":"youtube",
+            "patterns":["youtube search","youtube","search on youtube"
+
+            ],
+            "responses":["youtube"
+
+            ]
+        }
+    ]
+}  

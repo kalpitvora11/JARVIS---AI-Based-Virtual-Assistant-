@@ -1,0 +1,12 @@
+# Secrets
+token.json
+client_secret.json
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
